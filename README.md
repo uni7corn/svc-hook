@@ -14,7 +14,7 @@ Read [my blog post (ja)](https://retrage.github.io/2024/07/31/svc-hook.html/) fo
 
 ## Target Platform
 
-svc-hook supports ARM64 Linux.
+svc-hook supports ARM64 Linux and FreeBSD.
 
 ## Build
 
@@ -44,7 +44,7 @@ You need to set two environment variables:
 LIBSVCHOOK=./apps/basic/libsvchook_basic.so LD_PRELOAD=./libsvchook.so [target]
 ```
 
-Replace `[target]` with the binary you wish to hook system call.
+Replace `[target]` with the binary whose system calls you wish to hook.
 
 #### Example Output
 
